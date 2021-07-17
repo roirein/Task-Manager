@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken')
 const userRouter = require('./routers/users')
 const taskRouter = require('./routers/tasks')
 const app = express()
-const port = process.env.port
+const port = process.env.PORT
 
 
 app.use(express.json())
